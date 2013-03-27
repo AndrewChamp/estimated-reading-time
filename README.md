@@ -6,7 +6,7 @@ This script estimates the amount of time it'll take to read an article.  It give
 
 ## How To Use
 ```
-	print 'Estimated reading time is '.readingTime($content);
+print 'Estimated reading time is '.readingTime($content);
 ```
 
 
@@ -14,5 +14,5 @@ This script estimates the amount of time it'll take to read an article.  It give
 
 If you're using Wordpress, add the function to Wordpress.  Then where you're content is output in the template call the function with this...
 ```
-	print 'Estimated reading time is '.readingTime($post->post_content);
+print 'Estimated reading time is '.readingTime($post->post_content);
 ```
